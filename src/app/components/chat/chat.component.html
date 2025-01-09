@@ -1,0 +1,30 @@
+
+<div class="d-flex justify-content-center align-items-center mt-5">
+  <div class="chat-container border rounded p-3 bg-light" style="max-height: 700px; overflow-y: auto; width: 100%; max-width: 700px;">
+    <h2 class="text-center my-4">ChatBox</h2>
+    
+    <!-- lista messaggi -->
+    <div class="message mb-2" *ngFor="let message of (messages$ | async)">
+      <div [ngClass]="{'text-end': message.author === currentUser, 'text-start': message.author !== currentUser}">
+        <div [ngClass]="{
+            'bg-primary text-white ms-auto': message.author === currentUser,
+            'bg-light text-dark me-auto': message.author !== currentUser
+          }" 
+          class="d-inline-block p-3 rounded-3 shadow-sm mw-75"
+        >
+          <div class="d-flex justify-content-between">
+            <strong class="author">{{ message.author }}</strong>
+            <span class="timestamp text-muted small">{{ message.timestamp | date: 'short' }}</span>
+          </div>
+          <p class="content mb-0">{{ message.content }}</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- input per un nuovo mess -->
+    <div class="message-input d-flex mt-3">
+      <input id="messageInput" [(ngModel)]="newMessageContent" placeholder="Scrivi un messaggio..." class="form-control me-2" />
+      <button (click)="sendMessage()" class="btn btn-dark">Invia</button>
+    </div>
+  </div>
+</div>

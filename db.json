@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "username": "olivier",
+      "password": "$2a$10$.QylNeYgocj9DylpdvlXvuu3tF.sq6Rq8Z1F956ZCebqEH4ySZbgK",
+      "id": 1
+    },
+    {
+      "email": "elena@gmail.com",
+      "password": "$2a$10$8joI/K6oBTAsClXYMRQdPO3DZVeVu7sHHMWIaLgkvThJePpEiXOIe",
+      "id": 2
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "author": "olivier@mail.com",
+      "content": "Benvenuto alla chat!",
+      "timestamp": "2024-12-01T10:00:00Z"
+    },
+    {
+      "id": 1736420501041,
+      "author": "olivier@mail.com",
+      "content": "ciao elena",
+      "timestamp": "2025-01-09T11:01:41.041Z"
+    },
+    {
+      "id": 1736420510735,
+      "author": "elena@gmail.com",
+      "content": "ciao olivier",
+      "timestamp": "2025-01-09T11:01:50.735Z"
+    },
+    {
+      "id": 1736420624414,
+      "author": "elena@gmail.com",
+      "content": "come stai oli?",
+      "timestamp": "2025-01-09T11:03:44.414Z"
+    },
+    {
+      "id": 1736420632434,
+      "author": "olivier@mail.com",
+      "content": "bene bene ele",
+      "timestamp": "2025-01-09T11:03:52.434Z"
+    },
+    {
+      "id": 1736421339688,
+      "author": "olivier@mail.com",
+      "content": "funziona?",
+      "timestamp": "2025-01-09T11:15:39.688Z"
+    },
+    {
+      "id": 1736421346377,
+      "author": "elena@gmail.com",
+      "content": "giusto",
+      "timestamp": "2025-01-09T11:15:46.377Z"
+    }
+  ]
+}

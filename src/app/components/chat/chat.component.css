@@ -1,0 +1,37 @@
+.chat-container {
+    max-height: 70vh;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .message {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-end {
+    align-items: flex-end;
+  }
+  
+  .text-start {
+    align-items: flex-start;
+  }
+  
+  .mw-75 {
+    max-width: 75%;
+  }
+  
+  .bg-primary {
+    background-color: rgb(165, 163, 163) !important;
+  }
+  
+  .bg-light {
+    background-color: #f6f7f8 !important;
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
