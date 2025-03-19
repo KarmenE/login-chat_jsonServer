@@ -1,6 +1,13 @@
-# Stopandcode2ConJsonServer
+Questo progetto è un'applicazione web realizzata con Angular che implementa un sistema di autenticazione e una chat tra utenti. Utilizza JSON Server per simulare un database e gestire gli utenti registrati e i messaggi della chat.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
+Tecnologie Utilizzate: Angular 18/19 (Standalone) / TypeScript / Bootstrap per lo stile / JSON Server per simulare un database locale / Angular Router per la navigazione tra le pagine
+
+Funzionalità:
+* Registrazione e Login: gli utenti possono creare un account e accedere con email e password.
+* Chat in tempo reale (simulata): gli utenti possono inviare e ricevere messaggi.
+* Gestione utenti e autenticazione: i dati degli utenti sono salvati in db.json.
+
+
 
 ## Development server
 
