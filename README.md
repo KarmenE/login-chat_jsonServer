@@ -1,6 +1,11 @@
 Questo progetto è un'applicazione web realizzata con Angular che implementa un sistema di autenticazione e una chat tra utenti. Utilizza JSON Server per simulare un database e gestire gli utenti registrati e i messaggi della chat.
 
-Tecnologie Utilizzate: Angular 18/19 (Standalone) / TypeScript / Bootstrap per lo stile / JSON Server per simulare un database locale / Angular Router per la navigazione tra le pagine
+Tecnologie Utilizzate: 
+* Angular 18/19 (Standalone)
+* TypeScript
+* Bootstrap per lo stile
+* JSON Server per simulare un database locale
+* Angular Router per la navigazione tra le pagine
 
 Funzionalità:
 * Registrazione e Login: gli utenti possono creare un account e accedere con email e password.
